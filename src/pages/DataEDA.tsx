@@ -4,16 +4,16 @@ import { mockTransactionData } from "@/lib/mockData";
 
 const DataEDA = () => {
   const fraudData = [
-    { name: "Legitimate", value: 837, color: "hsl(var(--success))" },
-    { name: "Fraudulent", value: 163, color: "hsl(var(--destructive))" },
+    { name: "Legitimate", value: 75044, color: "hsl(var(--success))" },
+    { name: "Fraudulent", value: 43249, color: "hsl(var(--destructive))" },
   ];
 
   const amountDistribution = [
-    { range: "$0-100", legitimate: 320, fraud: 45 },
-    { range: "$100-500", legitimate: 280, fraud: 38 },
-    { range: "$500-1000", legitimate: 150, fraud: 25 },
-    { range: "$1000-5000", legitimate: 70, fraud: 35 },
-    { range: "$5000+", legitimate: 17, fraud: 20 },
+    { range: "$0-100", legitimate: 28000, fraud: 8500 },
+    { range: "$100-500", legitimate: 25000, fraud: 12000 },
+    { range: "$500-1000", legitimate: 12000, fraud: 10000 },
+    { range: "$1000-5000", legitimate: 7500, fraud: 8200 },
+    { range: "$5000+", legitimate: 2544, fraud: 4549 },
   ];
 
   const deviceTypes = [

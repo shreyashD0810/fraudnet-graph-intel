@@ -15,7 +15,7 @@ const Home = () => {
     {
       icon: Brain,
       title: "AI-Powered Analysis",
-      description: "Machine learning models with 96.4% ROC-AUC accuracy",
+      description: "Machine learning models with 93.45% ROC-AUC accuracy",
     },
     {
       icon: Shield,
@@ -91,8 +91,8 @@ const Home = () => {
         {/* Stats Section */}
         <div className="grid md:grid-cols-3 gap-6 mt-20 max-w-3xl mx-auto">
           {[
-            { value: "96.4%", label: "ROC-AUC Score" },
-            { value: "1M+", label: "Transactions Analyzed" },
+            { value: "93.45%", label: "ROC-AUC Score" },
+            { value: "118K+", label: "Transactions Analyzed" },
             { value: "Real-Time", label: "Detection Speed" },
           ].map((stat, idx) => (
             <div key={idx} className="text-center p-6 rounded-xl bg-card/30 backdrop-blur-sm border border-border">
